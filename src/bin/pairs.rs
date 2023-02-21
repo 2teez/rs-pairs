@@ -12,7 +12,7 @@ struct PersonTuple (String, u32);
 
 fn main() {
 
-    let tuple = Pairs::new("rust-lang", 12);
+    let tuple: Pairs<&str, i32> = Pairs::new("rust-lang", 12);
     assert_eq!(tuple.first(), "rust-lang");
     assert_eq!(tuple.second, 12);
 
