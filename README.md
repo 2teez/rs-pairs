@@ -1,4 +1,4 @@
-h## rs-pairs
+## rs-pairs
 
 rs-pairs works like pairs in other programming language. Ofcourse, rust tuple type can be used
 to achieve ```some``` the basic function of this crate. Using the index of the tuple type, 
