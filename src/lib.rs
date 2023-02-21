@@ -33,6 +33,11 @@ impl <T: Copy, R: Copy> Pairs<T, R> {
     }
 }
 
+pub mod pairs {
+    
+    pub type Pairs<T> = super::Pairs<&'static str, T>;
+}
+
 #[cfg(test)]
 mod test {
     use super::*;
@@ -48,5 +53,12 @@ mod test {
     fn get_second() {
         let pairs = Pairs::new(1, "kunle");
         assert_eq!(pairs.second, "tolu");
+    }
+
+    #[test]
+    fn get_first_value() {
+        let pairs = pairs::Pairs::<_>::new("temiloluwa", 11);
+        assert_eq!(pairs.first, "temiloluwa");
+        assert_eq!(pairs.second, 11);
     }
 }
