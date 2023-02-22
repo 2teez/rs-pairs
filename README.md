@@ -4,6 +4,7 @@
 In the Cargo.toml file
 
 [dependancies]
+
 rs-pairs = {git = "https://github.com/2teez/rs-pairs"}
 
 ### Introduction
