@@ -39,7 +39,8 @@ pub mod pairs {
 }
 
 #[cfg(test)]
-mod test {
+mod test;
+/*mod test {
     use super::*;
 
     #[test]
@@ -61,4 +62,4 @@ mod test {
         assert_eq!(pairs.first, "temiloluwa");
         assert_eq!(pairs.second, 11);
     }
-}
+}*/
