@@ -1,5 +1,12 @@
 ## rs-pairs
 
+### Installation
+In the Cargo.toml file
+
+[dependancies]
+rs-pairs = {git = "https://github.com/2teez/rs-pairs"}
+
+### Introduction
 rs-pairs works like pairs in other programming language. Ofcourse, rust tuple type can be used
 to achieve ```some``` the basic function of this crate. Using the index of the tuple type, 
 which is not natural as proposed using rust like so:
